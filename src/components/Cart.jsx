@@ -22,7 +22,10 @@ const Cart = ({cartItems}) => {
 // каждый товар отображается в отдельном блоке
 // index используется как ключ (key), для идентификации каждого элемента
                     <div key = {index} className='cart-item'>
-                        <img scr = {item.image} alt = {item.title}/>
+                        <img 
+                        scr = {item.image} 
+                        alt = {item.title}
+                        />
                         <h3>{item.title}</h3>
                         <p>${item.price}</p>
                     </div>
